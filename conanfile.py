@@ -32,6 +32,7 @@ class Xrpl(ConanFile):
         'soci/4.0.3',
         'xxhash/0.8.2',
         'zlib/1.2.13',
+        'rust/1.56.0',  # Added Rust dependency
     ]
 
     tool_requires = [
@@ -173,6 +174,7 @@ class Xrpl(ConanFile):
             'sqlite3::sqlite',
             'xxhash::xxhash',
             'zlib::zlib',
+            'rust::rust',  # Added Rust dependency
         ]
         if self.options.rocksdb:
             libxrpl.requires.append('rocksdb::librocksdb')

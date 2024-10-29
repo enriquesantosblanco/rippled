@@ -67,3 +67,37 @@ git-subtree. See those directories' README files for more details.
 * [Clio API Server for the XRP Ledger](https://github.com/XRPLF/clio)
 * [Mailing List for Release Announcements](https://groups.google.com/g/ripple-server)
 * [Learn more about the XRP Ledger (YouTube)](https://www.youtube.com/playlist?list=PLJQ55Tj1hIVZtJ_JdTvSum2qMTsedWkNi)
+
+## Rust Build
+
+### Building the Rust Library
+
+To build the Rust library, you need to have Rust and Cargo installed. You can follow the instructions on the [official Rust website](https://www.rust-lang.org/tools/install) to install Rust and Cargo.
+
+Once you have Rust and Cargo installed, you can build the Rust library by running the following command in the root directory of the repository:
+
+```sh
+cargo build
+```
+
+This will compile the Rust library and generate the necessary artifacts.
+
+### Running the Rust Library
+
+To run the Rust library, you can use the following command:
+
+```sh
+cargo run
+```
+
+This will execute the main entry point of the Rust library and display the output.
+
+### Testing the Rust Library
+
+To run the tests for the Rust library, you can use the following command:
+
+```sh
+cargo test
+```
+
+This will execute the test cases defined in the Rust library and display the test results.
