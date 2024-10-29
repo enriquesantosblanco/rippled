@@ -123,3 +123,6 @@ set(PROJECT_EXPORT_SET RippleExports)
 include(RippledCore)
 include(RippledInstall)
 include(RippledValidatorKeys)
+
+find_package(Cargo)
+add_subdirectory(src/rust)
